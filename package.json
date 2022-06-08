@@ -1,7 +1,7 @@
 {
   "name": "memo",
   "version": "1.0.0",
-  "description": "Thank you for your interest in Lab Eleven and for taking on this simple exercise!",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "dev": "ts-node ./src/index.ts",
