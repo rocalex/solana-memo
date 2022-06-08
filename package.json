@@ -1,0 +1,28 @@
+{
+  "name": "memo",
+  "version": "1.0.0",
+  "description": "Thank you for your interest in Lab Eleven and for taking on this simple exercise!",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node ./src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/labeleven-dev/memo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/labeleven-dev/memo/issues"
+  },
+  "homepage": "https://github.com/labeleven-dev/memo#readme",
+  "dependencies": {
+    "@solana/web3.js": "^1.43.6"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.41",
+    "ts-node": "^10.8.1",
+    "typescript": "^4.7.3"
+  }
+}
