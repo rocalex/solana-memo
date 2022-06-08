@@ -30,7 +30,7 @@ import {
 
     try {
         const instruction = new TransactionInstruction({
-            keys: [],
+            keys: [{ pubkey: wallet.publicKey, isSigner: true, isWritable: true }],
             programId: new PublicKey("MemoSq4gqABAXKb96qnH8TysNcWxMyWCqXgDLGmfcHr"),
             data: Buffer.from("test")
         })
